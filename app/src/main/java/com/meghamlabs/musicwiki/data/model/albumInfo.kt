@@ -1,6 +1,6 @@
 package com.meghamlabs.musicwiki.data.model
 
 
-data class Genre(
-    val toptags: Toptags
+data class albumInfo(
+    val album: AlbumX
 )

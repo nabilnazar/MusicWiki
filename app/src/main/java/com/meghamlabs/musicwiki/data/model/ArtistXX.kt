@@ -3,8 +3,8 @@ package com.meghamlabs.musicwiki.data.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Tag(
-    val count: Int,
+data class ArtistXX(
+    val mbid: String,
     val name: String,
-    val reach: Int
+    val url: String
 )
